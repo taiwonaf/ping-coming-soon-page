@@ -18,15 +18,15 @@
   <section class="container">
     <div class="header">
       <img src="./images/logo.svg" alt="">
-      <h1 class="head-text">We are launching <span>soon!</span></h1>
+      <h1 class="head-text" >We are launching <span>soon!</span></h1>
       <p>Subscribe and get notified</p>
     </div>
-    <form action="">
+    <form action="#" id="form">
       <div class="input">
-        <input type="email" placeholder="example@email.com">
-        <input type="submit" value="Notify Me">
+        <input id="email" type="text" placeholder="example@email.com">
+        <input id="btn" type="submit" value="Notify Me">
       </div>
-      <div id="error">Please provide a valid email address</div>
+      <div id="error" class="error "></div>
     </form>
     <div class="img-container">
       <img src="./images/illustration-dashboard.png" alt="">
@@ -48,5 +48,6 @@
       Coded by <a href="#">Your Name Here</a>.
     </p>
   </footer>
+<script src="index.js"></script>
 </body>
 </html>

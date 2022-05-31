@@ -72,7 +72,7 @@ form input {
     height: 55px;
 }
 
-form input[type=email] {
+form input[type=text] {
     width: 420px;
     border: 2px solid #80808067;
     margin-right: 15px;
@@ -81,7 +81,7 @@ form input[type=email] {
     outline: none;
 }
 
-form input[type=email]::placeholder {
+form input[type=text]::placeholder {
     color: 80808067;
     font-size: 16px;
     font-weight: 300;
@@ -100,7 +100,7 @@ form input[type=submit] {
     -moz-box-shadow: -5px 5px 5px 0px rgba(194,211,255,0.75);
 }
 
-#error {
+.error {
     font-size: 12px;
     color: var(--Light-Red);
     position: absolute;
@@ -109,7 +109,6 @@ form input[type=submit] {
     font-style: italic;
     font-weight: 500;
     display: none;
-
 }
 
 .img-container {
@@ -189,7 +188,7 @@ form input[type=submit] {
         width: 100%;
     }
 
-    .input input[type=email] {
+    .input input[type=text] {
         width: 100%;
     }
 
